@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crud</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>CRUD de futbol</header>
+  <div class="column" id="column-1">
+    <div class="form">
+      <input placeholder="nombre" id="nombrePlayer" type="text"/>
+      <input placeholder="apellido" id="apellidoPlayer" type="text"/>
+      <input placeholder="edad" id="edadPlayer" type="number"/>
+      <input placeholder="equipo" id="equipo" type="text"/>
+      <input placeholder="posicion" id="posicion" type="text"/>
+      <button id="enviarPlayer" onClick="fetchPlayer()">enviar</button>
+    </div>
+  </div>
+  <div class="column" id="column-2">  
+    <div class="form">
+      <input placeholder="equipo"id="nombreEquipo" type="text"/>
+      <input placeholder="pais"id="pais" type="text"/>
+      <button id="enviarPlayer" onClick="fetchTeam()">enviar</button>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
