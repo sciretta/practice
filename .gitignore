@@ -8,5 +8,7 @@
 
 /horario/node_modules
 
-/user-auth/.next
-/user-auth/node_modules
+/typescript/bank-app/node_modules
+/typescript/react-quiz/node_modules
+/typescript/react-ts-webpack/node_modules
+/typescript/typescript-tutorial/node_modules
